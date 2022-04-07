@@ -1,0 +1,30 @@
+.sixth-section {
+  margin-top: 10.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sixth-section-body {
+  max-width: 67.4rem;
+  max-height: 28.8rem;
+  margin-top: 2.4rem;
+  margin-bottom: 16.6rem;
+}
+
+/* MEDIA QUERIES for screens (768, 540)*/
+
+@media screen and (max-width: 768px) {
+  .sixth-section {
+    margin-right: 5.6rem;
+    margin-left: 5.6rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .sixth-section {
+    margin-right: 3.2rem;
+    margin-left: 3.2rem;
+  }
+}

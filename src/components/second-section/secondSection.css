@@ -1,0 +1,73 @@
+.second-section {
+  margin: 6.4rem 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second-section--text {
+  max-width: 53.3rem;
+}
+
+.second-section--image {
+  max-width: 63.5rem;
+  max-height: 51.6rem;
+  border-radius: 1rem;
+}
+
+/* MEDIA QUERIES for screens (1280,1024, 820, 768, 540)*/
+
+@media screen and (max-width: 1280px) {
+  .second-section--text {
+    max-width: 40rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .second-section--text {
+    max-width: 40rem;
+    margin-right: 3rem;
+  }
+
+  .second-section--image {
+    width: 100%;
+    height: 100%;
+    max-width: 60rem;
+    max-height: 36rem;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .second-section {
+    margin-right: 6.4rem;
+    margin-left: 6.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .second-section {
+    margin-right: 5.6rem;
+    margin-left: 5.6rem;
+  }
+
+  .second-section--image {
+    max-width: 40rem;
+    max-height: 34rem;
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .second-section {
+    margin-right: 3.2rem;
+    margin-left: 3.2rem;
+    flex-wrap: wrap;
+  }
+
+  .second-section--image {
+    width: 100%;
+    max-width: 32rem;
+    margin-left: 0;
+    margin-top: 4rem;
+  }
+}

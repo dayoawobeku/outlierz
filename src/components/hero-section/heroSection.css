@@ -1,0 +1,133 @@
+.hero-section {
+  margin-right: 9rem;
+  margin-left: 9rem;
+  font-family: var(--heading-text);
+  display: flex;
+}
+
+.hero-section--text {
+  margin-top: 14rem;
+  max-width: 69.6rem;
+}
+
+.hero-section--text__heading {
+  font-size: 4rem;
+  line-height: 5.2rem;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+}
+
+.hero-section--text__emphasized-text,
+.hero-section--btn {
+  font-weight: 600;
+}
+
+.hero-section--btn {
+  margin-top: 7.2rem;
+  padding: 1.7rem 4.6rem;
+  font-family: var(--heading-text);
+  font-size: 2rem;
+  filter: drop-shadow(0px 16px 40px rgba(29, 129, 243, 0.16));
+}
+
+.hero-section--image {
+  margin-left: auto;
+  margin-top: -8rem;
+}
+
+/* MEDIA QUERIES for screens (1280, 1024, 820, 768, 540)*/
+
+@media screen and (max-width: 1280px) {
+  .hero-section--text__heading {
+    font-size: 3.8rem;
+    line-height: 5rem;
+    letter-spacing: -0.5px;
+  }
+
+  .hero-section--btn {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-section--text__heading {
+    font-size: 3.6rem;
+    line-height: 4.8rem;
+    letter-spacing: -0.5px;
+  }
+
+  .hero-section--btn {
+    font-size: 1.6rem;
+    margin-top: 4.8rem;
+  }
+
+  .hero-section--image {
+    width: 100%;
+    height: 100%;
+    max-width: 40rem;
+    max-height: 70rem;
+    margin-top: -1rem;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .hero-section {
+    margin-right: 6.4rem;
+    margin-left: 6.4rem;
+  }
+
+  .hero-section--image {
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-section {
+    margin-right: 5.6rem;
+    margin-left: 5.6rem;
+  }
+
+  .hero-section--text {
+    margin-top: 8rem;
+  }
+
+  .hero-section--text__heading {
+    font-size: 2.6rem;
+    line-height: 3.4rem;
+  }
+
+  .hero-section--btn {
+    font-size: 1.6rem;
+    margin-top: 5.6rem;
+  }
+
+  .hero-section--image {
+    max-width: 34rem;
+    margin-top: -3rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .hero-section {
+    margin-right: 3.2rem;
+    margin-left: 3.2rem;
+    flex-wrap: wrap;
+  }
+
+  .hero-section--text__heading {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+
+  .hero-section--btn {
+    font-size: 1.4rem;
+    margin-top: 3.2rem;
+    padding: 1.2rem 3.8rem;
+  }
+
+  .hero-section--image {
+    width: 100%;
+    max-width: 28rem;
+    margin-right: 4.8rem;
+  }
+}

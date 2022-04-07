@@ -1,0 +1,72 @@
+.fourth-section {
+  margin: 4.9rem 0 0 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fourth-section--text {
+  max-width: 55.4rem;
+}
+
+.fourth-section--image {
+  max-width: 62.2rem;
+  max-height: 54.7rem;
+  border-radius: 1rem;
+}
+
+/* MEDIA QUERIES for screens (1280, 1024, 820, 768, 540)*/
+
+@media screen and (max-width: 1280px) {
+  .fourth-section--text {
+    max-width: 48rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .fourth-section--text {
+    margin-right: 3rem;
+  }
+
+  .fourth-section--image {
+    max-width: 56rem;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .fourth-section {
+    margin-right: 6.4rem;
+    margin-left: 6.4rem;
+  }
+
+  .fourth-section--image {
+    max-width: 46rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fourth-section {
+    margin-left: 5.6rem;
+  }
+
+  .fourth-section--text {
+    margin-right: 2rem;
+  }
+
+  .fourth-section--image {
+    max-width: 40rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .fourth-section {
+    margin-left: 3.2rem;
+    flex-wrap: wrap;
+  }
+
+  .fourth-section--image {
+    width: 100%;
+    max-width: 32rem;
+    margin-top: 4rem;
+  }
+}

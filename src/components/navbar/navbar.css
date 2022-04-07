@@ -1,0 +1,155 @@
+.navbar {
+  position: sticky;
+  background-color: #e7f2fe;
+  top: 0;
+  width: 100%;
+  font-family: var(--body-text);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem 9rem;
+  font-size: 1.6rem;
+  z-index: 1;
+}
+
+.nav-lis {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-lis__lis {
+  display: flex;
+  padding-right: 29.4rem;
+}
+
+.nav-lis__lis > li {
+  margin-right: 4rem;
+}
+
+.nav-sign-in {
+  margin-right: 4rem;
+}
+
+.nav-register {
+  padding: 1.2rem 2.4rem;
+}
+
+.btn-mobile {
+  display: none;
+  border: none;
+  background-color: #fff;
+  color: var(--text);
+  cursor: pointer;
+}
+
+/* MEDIA QUERIES for screens (1280, 1200, 1100, 1024, 768, 540)*/
+
+@media screen and (max-width: 1280px) {
+  .nav-lis__lis {
+    padding-right: 21.4rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-lis__lis {
+    padding-right: 17.4rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .nav-lis__lis {
+    padding-right: 12.4rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-lis__lis {
+    padding-right: 8.6rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nav-lis__lis {
+    padding-right: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .navbar {
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+  }
+
+  .nav-lis__lis {
+    padding-right: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 2.4rem 5.6rem;
+  }
+
+  .nav-lis-mobile {
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    padding-left: 5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e7f2fe;
+    width: 100%;
+    transition: all 0.5s ease-out;
+    text-align: center;
+    height: 24rem;
+  }
+
+  .nav-lis__lis {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+  }
+
+  .nav-lis__lis > li {
+    padding-bottom: 2rem;
+  }
+
+  .nav-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-sign-in {
+    margin-bottom: 2rem;
+  }
+
+  .nav-register {
+    padding: 1rem 2rem;
+    margin-right: 4rem;
+  }
+
+  .nav-lis {
+    display: none;
+  }
+
+  .btn-mobile {
+    display: flex;
+    background-color: rgba(29, 129, 243, 0.1);
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .navbar {
+    padding: 2rem 3.2rem;
+  }
+
+  .nav-lis-mobile {
+    position: absolute;
+    top: 7rem;
+    padding-left: 4.5rem;
+  }
+}
