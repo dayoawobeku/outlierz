@@ -1,17 +1,14 @@
 import { useState } from "react";
+import { logo } from "../../images/images";
 import "./navbar.css";
 
 function Navbar() {
   const [isMobile, setIsMobile] = useState(false);
 
   return (
-    <navbar className="navbar">
+    <div className="navbar">
       <a href="/">
-        <img
-          src="https://raw.githubusercontent.com/awobekuD/Outlierz/bfce3f9fed92cbf157872ba1a06270b06c922ce3/outlierz-app/images/LOGO.svg"
-          alt="outlierz-logo"
-          className="logo"
-        />
+        <img src={logo} alt="outlierz-logo" className="logo" />
       </a>
 
       <nav
@@ -46,7 +43,7 @@ function Navbar() {
           <i className="im im-menu"></i>
         )}
       </button>
-    </navbar>
+    </div>
   );
 }
 

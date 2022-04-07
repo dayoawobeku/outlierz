@@ -35,14 +35,11 @@
   display: flex;
   flex-direction: column;
   max-width: 16.2rem;
+  gap: 16px;
 }
 
 .ml-8rem {
   margin-left: 8rem;
-}
-
-.footer--downloads__google-store {
-  margin-bottom: 1.6rem;
 }
 
 .footer--social-icons > * {

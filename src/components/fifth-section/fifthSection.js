@@ -1,14 +1,11 @@
 import "./fifthSection.css";
+import { fifthSectionImg, sixthSectionImg } from "../../images/images";
 
 function FifthSection() {
   return (
     <div>
       <section className="fifth-section">
-        <img
-          src="https://github.com/awobekuD/Outlierz/blob/master/outlierz-app/images/Fifth%20section%20image.png?raw=true"
-          alt=""
-          className="fifth-section--image"
-        />
+        <img src={fifthSectionImg} alt="" className="fifth-section--image" />
 
         <div className="fifth-section--text">
           <h4 className="sections-headings">
@@ -23,11 +20,7 @@ function FifthSection() {
       </section>
 
       <div className="sub-fifth-section-image-container">
-        <img
-          src="https://github.com/awobekuD/Outlierz/blob/master/outlierz-app/images/Sixth%20section.png?raw=true"
-          alt=""
-          className="sub-fifth-section-image"
-        />
+        <img src={sixthSectionImg} alt="" className="sub-fifth-section-image" />
       </div>
     </div>
   );

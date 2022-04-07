@@ -1,13 +1,10 @@
 import "./thirdSection.css";
+import { thirdSectionImg } from "../../images/images";
 
 function ThirdSection() {
   return (
     <section className="third-section">
-      <img
-        src="https://github.com/awobekuD/Outlierz/blob/master/outlierz-app/images/Third%20section%20image.png?raw=true"
-        className="third-section--image"
-        alt=""
-      />
+      <img src={thirdSectionImg} className="third-section--image" alt="" />
 
       <div className="third-section--text">
         <h4 className="sections-headings">

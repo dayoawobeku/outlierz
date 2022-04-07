@@ -1,4 +1,11 @@
 import "./footer.css";
+import {
+  appStore,
+  googlePlay,
+  instagram,
+  twitter,
+  youtube,
+} from "../../images/images";
 
 function Footer() {
   return (
@@ -42,16 +49,13 @@ function Footer() {
           <div className="footer--downloads">
             <a href="/">
               <img
-                src="https://raw.githubusercontent.com/awobekuD/Outlierz/f3c43d7822a638a3ae48604d43840f59b6d6de97/outlierz-app/images/Google%20play%20download.svg"
+                src={googlePlay}
                 alt="google-store-download"
                 className="footer--downloads__google-store"
               />
             </a>
             <a href="/">
-              <img
-                src="https://raw.githubusercontent.com/awobekuD/Outlierz/f3c43d7822a638a3ae48604d43840f59b6d6de97/outlierz-app/images/App%20store%20download.svg"
-                alt="apple-store-download"
-              />
+              <img src={appStore} alt="apple-store-download" />
             </a>
           </div>
         </div>
@@ -59,22 +63,13 @@ function Footer() {
 
       <div className="footer--social-icons">
         <a href="/">
-          <img
-            src="https://raw.githubusercontent.com/awobekuD/Outlierz/f3c43d7822a638a3ae48604d43840f59b6d6de97/outlierz-app/images/Instagram.svg"
-            alt="instagram-link"
-          />
+          <img src={instagram} alt="instagram-link" />
         </a>
         <a href="/">
-          <img
-            src="https://raw.githubusercontent.com/awobekuD/Outlierz/f3c43d7822a638a3ae48604d43840f59b6d6de97/outlierz-app/images/Twitter.svg"
-            alt="twitter-link"
-          />
+          <img src={twitter} alt="twitter-link" />
         </a>
         <a href="/">
-          <img
-            src="https://raw.githubusercontent.com/awobekuD/Outlierz/f3c43d7822a638a3ae48604d43840f59b6d6de97/outlierz-app/images/Youtube.svg"
-            alt="youtube-link"
-          />
+          <img src={youtube} alt="youtube-link" />
         </a>
       </div>
     </footer>

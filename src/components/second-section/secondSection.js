@@ -1,4 +1,5 @@
 import "./secondSection.css";
+import { secondSectionImg } from "../../images/images";
 
 function SecondSection() {
   return (
@@ -13,11 +14,7 @@ function SecondSection() {
         </p>
       </div>
 
-      <img
-        src="https://github.com/awobekuD/Outlierz/blob/master/outlierz-app/images/Second%20section%20image.png?raw=true"
-        alt=""
-        className="second-section--image"
-      />
+      <img src={secondSectionImg} alt="" className="second-section--image" />
     </section>
   );
 }

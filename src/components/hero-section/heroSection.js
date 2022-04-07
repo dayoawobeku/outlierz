@@ -1,4 +1,5 @@
 import "./heroSection.css";
+import { heroImgSvg } from "../../images/images";
 
 function HeroSection() {
   return (
@@ -17,11 +18,7 @@ function HeroSection() {
         </a>
       </section>
 
-      <img
-        src="https://raw.githubusercontent.com/awobekuD/Outlierz/a3915ea25b1461cb72da6f9ced7cbe92a4e50463/outlierz-app/images/Hero%20image.svg"
-        alt=""
-        className="hero-section--image"
-      />
+      <img src={heroImgSvg} alt="" className="hero-section--image" />
     </main>
   );
 }
