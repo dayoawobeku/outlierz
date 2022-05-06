@@ -4,23 +4,24 @@ import { fifthSectionImg, sixthSectionImg } from "../../images/images";
 function FifthSection() {
   return (
     <div>
-      <section className="fifth-section">
-        <img src={fifthSectionImg} alt="" className="fifth-section--image" />
+      <section className='fifth-section'>
+        <img src={fifthSectionImg} alt='' className='fifth-section--image' />
 
-        <div className="fifth-section--text">
-          <h4 className="sections-headings">
-            We bring the very best Africa has to offer to your fingertips
+        <div className='fifth-section--text'>
+          <h4 className='sections-headings'>
+            Scout players using all relevant and up-to-date data
           </h4>
-          <p className="sections-body">
-            The Outlyer platform has been designed to present recruiters a
-            detailed archive of properly profiled talented players that have
-            been singled out from a large pool of players.
+          <p className='sections-body'>
+            We get you the complete view of all players we profile (match
+            videos, stats, highlights and more) in our constantly updated player
+            database, we want you to have all the information you need to make a
+            decision.
           </p>
         </div>
       </section>
 
-      <div className="sub-fifth-section-image-container">
-        <img src={sixthSectionImg} alt="" className="sub-fifth-section-image" />
+      <div className='sub-fifth-section-image-container'>
+        <img src={sixthSectionImg} alt='' className='sub-fifth-section-image' />
       </div>
     </div>
   );
