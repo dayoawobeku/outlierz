@@ -1,5 +1,5 @@
 import "./fourthSection.css";
-import { fourthSectionImg } from "../../images/images";
+import { connection } from "../../images/images";
 
 function FourthSection() {
   return (
@@ -16,7 +16,7 @@ function FourthSection() {
         </p>
       </div>
 
-      <img src={fourthSectionImg} alt='' className='fourth-section--image' />
+      <img src={connection} alt='' className='fourth-section--image' />
     </section>
   );
 }

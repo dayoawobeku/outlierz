@@ -17,3 +17,5 @@ export { default as thirdSectionImg } from "./third-section-image.png";
 export { default as fourthSectionImg } from "./fourth-section-image.png";
 export { default as fifthSectionImg } from "./fifth-section-image.png";
 export { default as sixthSectionImg } from "./sixth-section.png";
+export { default as seventhSectionImg } from './seventh-section.png';
+export { default as connection } from './conection.jpg';

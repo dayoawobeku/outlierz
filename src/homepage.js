@@ -5,8 +5,9 @@ import SecondSection from "./components/second-section/secondSection";
 import ThirdSection from "./components/third-section/thirdSection";
 import FourthSection from "./components/fourth-section/fourthSection";
 import FifthSection from "./components/fifth-section/fifthSection";
-import SixthSection from "./components/sixth-section/sixthSection";
+// import SixthSection from "./components/sixth-section/sixthSection";
 import Footer from "./components/footer/footer";
+import SeventhSection from "./components/seventh-section/seventhSection";
 
 function Homepage() {
   return (
@@ -18,7 +19,8 @@ function Homepage() {
       <ThirdSection />
       <FourthSection />
       <FifthSection />
-      <SixthSection />
+      {/* <SixthSection /> */}
+      <SeventhSection />
       <Footer />
     </div>
   );
