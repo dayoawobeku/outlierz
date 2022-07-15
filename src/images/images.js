@@ -19,3 +19,4 @@ export { default as fifthSectionImg } from "./fifth-section-image.png";
 export { default as sixthSectionImg } from "./sixth-section.png";
 export { default as seventhSectionImg } from './seventh-section.png';
 export { default as connection } from './conection.jpg';
+export { default as ronaldo } from './ronaldo.png';

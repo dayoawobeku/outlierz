@@ -1,4 +1,4 @@
-import Navbar from "./components/navbar/navbar";
+// import Navbar from "./components/navbar/navbar";
 import HeroSection from "./components/hero-section/heroSection";
 import FirstSection from "./components/first-section/firstSection";
 import SecondSection from "./components/second-section/secondSection";
@@ -12,7 +12,7 @@ import SeventhSection from "./components/seventh-section/seventhSection";
 function Homepage() {
   return (
     <div>
-      <Navbar />
+    
       <HeroSection />
       <FirstSection />
       <SecondSection />
