@@ -1,5 +1,5 @@
 import "./fifthSection.css";
-import { fifthSectionImg, sixthSectionImg } from "../../images/images";
+import { fifthSectionImg } from "../../images/images";
 
 function FifthSection() {
   return (
@@ -20,9 +20,9 @@ function FifthSection() {
         </div>
       </section>
 
-      <div className='sub-fifth-section-image-container'>
+      {/* <div className='sub-fifth-section-image-container'>
         <img src={sixthSectionImg} alt='' className='sub-fifth-section-image' />
-      </div>
+      </div> */}
     </div>
   );
 }

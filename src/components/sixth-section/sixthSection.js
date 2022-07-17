@@ -12,9 +12,9 @@ function SixthSection() {
         designed to present detailed profiles of some of the most talented
         footballers emerging from Africa to recruiters all around the world at
         the click of a button.
-        <p className='sections-body__sub-paragraph'>
+        {/* <p className='sections-body__sub-paragraph'>
           Our goal is to create innovative solutions that will bridge this gap. Think of us as a Wyscout (an active archive) for emerging talent.
-        </p>
+        </p> */}
       </p>
     </section>
   );

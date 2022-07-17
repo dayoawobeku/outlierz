@@ -11,9 +11,10 @@ function ThirdSection() {
           Use our tools to evaluate players, create/share reports on your finds.
         </h4>
         <p className='sections-body'>
-          Create your portfolio of shortlisted players and get notifications,
-          updates, request specific information, track performance and inquire
-          about players in your shortlist.
+          Share your findings with your team/associates at the click of a
+          button. Discovered a prospect you like? You can easily use our tool to
+          create reports on the player, attach all the player profile (which
+          will include all details you need), and export in PDF format.
         </p>
       </div>
     </section>
