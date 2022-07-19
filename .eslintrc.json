@@ -19,7 +19,9 @@
   "plugins": ["react"],
   "rules": {
     "react/react-in-jsx-scope": "off",
-    "semi": "off"
+    "semi": "off",
+    "no-unused-vars": "off",
+    "no-undef":"off"
   },
   "parser": "@babel/eslint-parser"
 }

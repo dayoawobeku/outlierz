@@ -18,7 +18,7 @@ interface IProfile {
 
 const randomizeColor = () =>{
   let colors = ['#2c7cc3', '#612cc3', '#216bc6', '#199e41', '#f79d30'];
-  return colors[Math.floor(Math.random() * 5)]
+  return colors[Math.floor(Math.random() * 10)]
 }
 
 const ProfileCard:FC<IProfile> = ({firstName, lastName, club, country, position, age, height, goals, assists, matches, profileImage, clubImage}) => {
