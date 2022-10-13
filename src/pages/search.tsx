@@ -101,6 +101,7 @@ function Search() {
       foot: 'right'
     },
   ];
+  
   return (
     <div className='bg-white  dark:bg-[#0c0c0c]'>
       <div className='w-full dark:bg-[#101010] py-12 px-12 md:pb-24 md:pt-48 md:px-24'>

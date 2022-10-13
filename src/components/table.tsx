@@ -1,7 +1,5 @@
-import { data } from 'autoprefixer';
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { IData } from '../types';
-
 
 interface IPlayer {
   data: Array<IData>;
@@ -9,7 +7,7 @@ interface IPlayer {
 const Table: FC<IPlayer> = ({ data }) => {
   return (
     <table className='w-full text-sm text-left text-gray-500 dark:text-gray-400'>
-      <thead className='text-xs text-gray-700 uppercase bg-gray-50 dark:bg-[#080808] dark:text-gray-400 '>
+      <thead className='text-xs text-gray-700 uppercase bg-gray-50 dark:bg-[#111111] dark:text-gray-400 '>
         <tr className='text-center'>
           <th scope='col' className='font-bold text-sm px-6 py-3'>
             Player
@@ -53,7 +51,9 @@ const Table: FC<IPlayer> = ({ data }) => {
         {data &&
           data.map((item, key) => {
             return (
-              <tr key={key} className='bg-white dark:bg-[#101010] hover:bg-[#1c1d1d] dark:hover:bg-[#1f1f1f] '>
+              <tr
+                key={key}
+                className='bg-white dark:bg-[#101010] hover:bg-[#1c1d1d] dark:hover:bg-[#1f1f1f] '>
                 <th
                   scope='row'
                   className='px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap'>
