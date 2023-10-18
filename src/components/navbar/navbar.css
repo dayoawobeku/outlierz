@@ -1,6 +1,6 @@
 .navbar {
   position: sticky;
-  background-color: #e7f2fe;
+  /* background-color: #e7f2fe; */
   top: 0;
   width: 100%;
   font-family: var(--body-text);
@@ -20,7 +20,7 @@
 
 .nav-lis__lis {
   display: flex;
-  padding-right: 29.4rem;
+  /* padding-right: 29.4rem; */
 }
 
 .nav-lis__lis > li {

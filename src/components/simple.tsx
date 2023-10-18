@@ -1,6 +1,6 @@
 import Carousel from 'react-multi-carousel';
-import ProfileCard from './profile-card';
-import React from 'react';
+import ProfileCard from './ProfileCard';
+import React, { useState } from 'react';
 
 type IDevice = {
     deviceType: string;
@@ -115,9 +115,26 @@ const playersData = [
   },
 ];
 
+
+
 // Because this is an inframe, so the SSR mode doesn't not do well here.
 // It will work on real devices.
 const Simple: React.FC<IDevice> = ({ deviceType }) => {
+  const [color, setColor] = useState('')
+  const randomizeColor = () => {
+    let colors = [
+      'grey-600',
+      'red',
+      'green-300',
+      'purple-300',
+      // 'rgba(33 107 198, 1)',
+      // 'rgba(25, 158, 65, 1)',
+      // '#f79d30',
+    ];
+  
+    setColor(colors[Math.floor(Math.random() * 4)]);
+  };
+
   return (
     <Carousel
       ssr
@@ -127,9 +144,8 @@ const Simple: React.FC<IDevice> = ({ deviceType }) => {
       
       responsive={responsive} autoPlay={false}>
       {playersData.map((player, key) => {
-        return (
-         <ProfileCard key={key} {...player} />
-        );
+        // randomizeColor()
+        return <ProfileCard randomColor={color} key={key} {...player} />;
       })}
     </Carousel>
   );

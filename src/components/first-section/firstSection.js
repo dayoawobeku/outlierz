@@ -1,5 +1,6 @@
-import "./firstSection.css";
-import { firstSectionImgSvg } from "../../images/images";
+import { firstSectionImgSvg } from 'utils/images';
+import './firstSection.css';
+
 
 function FirstSection() {
   return (
@@ -11,20 +12,35 @@ function FirstSection() {
           We bring the very best Africa has to offer to your fingertips
         </h4>
         <p className='sections-body'>
-          We believe that Africa has a lot to offer in terms of raw talent,
-          however, the majority of the talent goes unnoticed. We have decided to
-          solve this problem by creating The OUTLIER PLATFORM which has been
-          designed to present detailed profiles of some of the most talented
-          footballers emerging from Africa to recruiters all around the world at
-          the click of a button.
+          Technology is rapidly changing the world of Sports globally in many
+          different ways and football isn&apos;t left out. One major niche that
+          has been impacted positively is the field of talent recruitment,
+          specifically talent scouting
+        </p>
+        <br />
+        <p className='sections-body sections-body__sub-paragraph'>
+          Football talent scouting has experienced a major paradigm shift
+          globally, evolving from purely traditional methods of talent
+          identification and poaching to, the{' '}
+          <a
+            rel='noreferrer'
+            href='https://indianexpress.com/article/sports/football/how-data-analytics-changed-football-scouting-8696641/'
+            target='_blank'>
+            use of technology, video, stats and analytics
+          </a>{' '}
+          to drive decision making in scouting that is now known as technical
+          scouting.
         </p>
         <p className='sections-body sections-body__sub-paragraph'>
-          Our unique approach involves scouting through several Competitions,
-          Teams and Athletes looking for out for ‘Outliers’ who we monitor,
-          build profiles on and present to recruiters via our platform
-        </p>
-        <p className='sections-body sections-body__sub-paragraph'>
-          Think of us as a Wyscout (an active archive) for emerging talent.
+          In the new world of football recruitment, professional recruiters now
+          take
+          <a
+            rel='noreferrer'
+            href='https://www.footballytics.ch/post/data-scouting-first-the-data-then-the-videos-and-then-the-stadium'
+            target='_blank'>
+            first the data, then the videos and then the stadium approach to
+            scouting
+          </a>{' '}
         </p>
       </div>
     </section>

@@ -1,5 +1,5 @@
-import "./seventhSection.css";
-import { seventhSectionImg } from "../../images/images";
+import './seventhSection.css';
+import { seventhSectionImg } from '../../utils/images';
 
 function SeventhSection() {
   return (
@@ -14,9 +14,12 @@ function SeventhSection() {
           </p>
         </div>
 
-        <img src={seventhSectionImg} alt='' className='seventh-section--image' />
+        <img
+          src={seventhSectionImg}
+          alt=''
+          className='seventh-section--image'
+        />
       </section>
-
     </div>
   );
 }

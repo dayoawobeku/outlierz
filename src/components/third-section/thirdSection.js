@@ -1,5 +1,5 @@
-import "./thirdSection.css";
-import { thirdSectionImg } from "../../images/images";
+import './thirdSection.css';
+import { thirdSectionImg } from '../../utils/images';
 
 function ThirdSection() {
   return (
@@ -11,10 +11,10 @@ function ThirdSection() {
           Use our tools to evaluate players, create/share reports on your finds.
         </h4>
         <p className='sections-body'>
-          Share your findings with your team/associates at the click of a
-          button. Discovered a prospect you like? You can easily use our tool to
-          create reports on the player, attach all the player profile (which
-          will include all details you need), and export in PDF format.
+          Recruiters can sieve through player profiles, see all necessary
+          details, watch videos (full match matches, highlights, specific gane
+          moments), view all kinds of stats, match reports and performance
+          analysis on each player on our platform.
         </p>
       </div>
     </section>
