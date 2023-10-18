@@ -22,8 +22,7 @@
     "semi": "off",
     "no-unused-vars": "off",
     "no-undef":"off",
-    "requireConfigFile": false
-
+    "requireConfigFile": 0
   },
   "parser": "@babel/eslint-parser"
 }

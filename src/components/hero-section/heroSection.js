@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <main className='hero-section'>
       <section className='hero-section--text'>
-        <h1 className='hero-section--text__heading'>
+        <h1 className='hero-section--text__heading !text-7xl'>
           We are dedicated to the discovery and exposure of{' '}
           <span className='hero-section--text__emphasized-text'>
             talented athletes{' '}
@@ -17,7 +17,8 @@ function HeroSection() {
 
         <button
           className='btn hero-section--btn'
-          onClick={() => navigate('search')}>
+          // onClick={() => navigate('search')}
+          >
           Get Early Access
         </button>
       </section>

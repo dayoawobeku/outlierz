@@ -10,8 +10,8 @@ import {
 function Footer() {
   return (
     <footer className='footer'>
-      <div className='footer--links'>
-        <div>
+      <div className='footer--links w-full sm:flex sm:justify-between'>
+        {/* <div>
           <h6 className='footer--links__heading'>Support</h6>
           <a href='/'>
             <p className='footer--links__body'>Help Center</p>
@@ -28,21 +28,21 @@ function Footer() {
           <a href='/'>
             <p className='footer--links__body'>Safety Center</p>
           </a>
-        </div>
+        </div> */}
         <div>
           <h6 className='footer--links__heading'>Legal</h6>
           <a href='/'>
-            <p className='footer--links__body'>Cookies Policy</p>
+            <p className='footer--links__body font-thin'>Cookies Policy</p>
           </a>
           <a href='/'>
-            <p className='footer--links__body'>Privacy Policy</p>
+            <p className='footer--links__body font-thin'>Privacy Policy</p>
           </a>
           <a href='/'>
-            <p className='footer--links__body'>Terms of Service</p>
+            <p className='footer--links__body font-thin'>Terms of Service</p>
           </a>
         </div>
 
-        <div className='ml-8rem'>
+        <div className=''>
           <h6 className='footer--links__heading'>
             Coming soon on your mobile device
           </h6>
@@ -61,7 +61,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className='footer--social-icons'>
+      <div className='footer--social-icons flex'>
         <a href='/'>
           <img src={instagram} alt='instagram-link' />
         </a>
