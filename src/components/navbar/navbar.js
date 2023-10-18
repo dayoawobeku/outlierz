@@ -1,6 +1,6 @@
-import { useState } from "react";
-import logo from "../../images/logo.png";
-import "./navbar.css";
+import { useState } from 'react';
+import logo from 'assets/images/logo.png';
+import './navbar.css'; 
 
 function Navbar() {
   const [isMobile, setIsMobile] = useState(false);

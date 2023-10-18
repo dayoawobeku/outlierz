@@ -1,5 +1,5 @@
-import "./secondSection.css";
-import { secondSectionImg } from "../../images/images";
+import './secondSection.css';
+import { secondSectionImg } from '../../utils/images';
 
 function SecondSection() {
   return (

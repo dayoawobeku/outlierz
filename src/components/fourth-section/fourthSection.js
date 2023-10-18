@@ -1,5 +1,5 @@
-import "./fourthSection.css";
-import { connection } from "../../images/images";
+import './fourthSection.css';
+import { connection } from '../../utils/images';
 
 function FourthSection() {
   return (

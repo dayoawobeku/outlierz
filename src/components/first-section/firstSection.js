@@ -1,5 +1,6 @@
-import "./firstSection.css";
-import { firstSectionImgSvg } from "../../images/images";
+import { firstSectionImgSvg } from 'utils/images';
+import './firstSection.css';
+
 
 function FirstSection() {
   return (

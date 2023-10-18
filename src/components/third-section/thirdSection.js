@@ -1,5 +1,5 @@
-import "./thirdSection.css";
-import { thirdSectionImg } from "../../images/images";
+import './thirdSection.css';
+import { thirdSectionImg } from '../../utils/images';
 
 function ThirdSection() {
   return (

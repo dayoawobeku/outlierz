@@ -1,5 +1,5 @@
-import "./fifthSection.css";
-import { fifthSectionImg } from "../../images/images";
+import './fifthSection.css';
+import { fifthSectionImg } from 'utils/images';
 
 function FifthSection() {
   return (

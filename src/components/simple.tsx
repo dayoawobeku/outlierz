@@ -1,5 +1,5 @@
 import Carousel from 'react-multi-carousel';
-import ProfileCard from './profile-card';
+import ProfileCard from './ProfileCard';
 import React, { useState } from 'react';
 
 type IDevice = {

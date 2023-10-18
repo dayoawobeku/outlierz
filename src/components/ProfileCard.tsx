@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { ronaldo } from '../images/images';
+import { ronaldo } from '../utils/images';
 
 interface IProfile {
   firstName: string;
@@ -40,7 +40,7 @@ const ProfileCard: FC<IProfile> = ({
           <h1 className='text-[rgba(255,255,255,0.1)] font-extrabold text-6xl uppercase top-24 text-center relative'>
             {lastName}
           </h1>
-          <img src={ronaldo} className=' -top-16 relative ' />
+          <img src={ronaldo} className=' -top-16 relative ' alt={firstName} />
         </div>
 
         <div className='flex flex-col  px-6 py-4 rounded-t-3xl bg-black -top-5  relative'>

@@ -21,7 +21,9 @@
     "react/react-in-jsx-scope": "off",
     "semi": "off",
     "no-unused-vars": "off",
-    "no-undef":"off"
+    "no-undef":"off",
+    "requireConfigFile": false
+
   },
   "parser": "@babel/eslint-parser"
 }

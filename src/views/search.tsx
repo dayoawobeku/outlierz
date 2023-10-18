@@ -1,8 +1,15 @@
-import Carousel from '../components/carousel';
-import Table from '../components/table';
+import { useEffect, useState } from 'react';
+import Carousel from '../components/Carousel';
+import Table from '../components/Table';
 import { IData } from '../types';
 
 function Search() {
+  const [players, setPlayers] = useState([]);
+  useEffect(() => {
+    fetch('https://outlierz.herokuapp.com/api/authors?populate=%2A')
+      .then((res) => res.json())
+      .then((result) => setPlayers(result.data));
+  }, []);
   const playersData = [
     {
       firstName: 'Cristiano',
@@ -18,7 +25,7 @@ function Search() {
       goals: 600,
       minutesPlayed: 2343,
       marketValue: 23,
-      foot: 'right'
+      foot: 'right',
     },
     {
       firstName: 'Kylan',
@@ -34,7 +41,7 @@ function Search() {
       goals: 400,
       minutesPlayed: 2343,
       marketValue: 23,
-      foot: 'right'
+      foot: 'right',
     },
     {
       firstName: 'Davide',
@@ -50,7 +57,7 @@ function Search() {
       goals: 600,
       minutesPlayed: 2343,
       marketValue: 23,
-      foot: 'right'
+      foot: 'right',
     },
     {
       firstName: 'Kylan',
@@ -66,7 +73,7 @@ function Search() {
       goals: 400,
       minutesPlayed: 2343,
       marketValue: 23,
-      foot: 'right'
+      foot: 'right',
     },
     {
       firstName: 'Cristiano',
@@ -82,7 +89,7 @@ function Search() {
       goals: 600,
       minutesPlayed: 2343,
       marketValue: 23,
-      foot: 'right'
+      foot: 'right',
     },
     {
       firstName: 'Kylan',
@@ -98,10 +105,10 @@ function Search() {
       goals: 400,
       minutesPlayed: 2343,
       marketValue: 23,
-      foot: 'right'
+      foot: 'right',
     },
   ];
-  
+
   return (
     <div className='bg-white  dark:bg-[#0c0c0c]'>
       <div className='w-full dark:bg-[#101010] py-12 px-12 md:pb-24 md:pt-48 md:px-24'>
@@ -138,7 +145,7 @@ function Search() {
             Check out the latest players available for collaborating this week
           </p>
 
-          <Table data={playersData} />
+          <Table data={players} />
         </div>
       </div>
     </div>

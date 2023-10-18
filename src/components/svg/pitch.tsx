@@ -9,8 +9,8 @@ interface SVGProps {
 const PitchSVG: FC<SVGProps> = ({ coordX, coordY }) => {
   return (
     <svg
-      width={310}
-      height={207}
+      width={210}
+      height={150}
       viewBox='0 0 310 207'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'>

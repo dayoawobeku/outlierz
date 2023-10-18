@@ -3,8 +3,8 @@ import 'react-multi-carousel/lib/styles.css';
 //@ts-ignore
 import UAParser from 'ua-parser-js';
 import { Fragment } from 'react';
-import Simple from './simple';
-import Section from './section';
+import Simple from './Simple';
+import Section from './Section';
 
 // Because this is an inframe, so the SSR mode doesn't not do well here.
 // It will work on real devices.

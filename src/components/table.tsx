@@ -24,7 +24,7 @@ const Table: FC<IPlayer> = ({ data }) => {
           <th scope='col' className='font-bold text-sm px-6 py-3'>
             Age
           </th>
-          <th scope='col' className='font-bold text-sm px-6 py-3 w-6'>
+          <th scope='col' className='font-bold text-sm px-8 py-3 w-12'>
             Market Value
           </th>
           <th scope='col' className='font-bold text-sm px-6 py-3 w-6'>
@@ -63,20 +63,41 @@ const Table: FC<IPlayer> = ({ data }) => {
                     alt=''
                   />
                   <span className='px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap'>
-                    {item.firstName} {item.lastName}
+                    {item.attributes.fullname}
                   </span>
                 </th>
-                <td className='px-6 py-4 text-center'>{item.goals}</td>
-                <td className='px-6 py-4text-center'>{item.club}</td>
-                <td className='px-6 py-4 text-center'>{item.position}</td>
-                <td className='px-6 py-4 text-center'>{item.age}</td>
-                <td className='px-6 py-4 text-center'>€ {item.marketValue}M</td>
-                <td className='px-6 py-4 text-center'>{item.matches}</td>
-                <td className='px-6 py-4 text-center'>{item.minutesPlayed}</td>
-                <td className='px-6 py-4 text-center'>🇫🇷</td>
-                <td className='px-6 py-4 text-center'>{item.foot}</td>
-                <td className='px-6 py-4 text-center'>{item.height}</td>
-                <td className='px-6 py-4 text-center'>{item.weight}</td>
+                <td className='px-6 py-4 text-center'>
+                  {item.attributes.goals}
+                </td>
+                <td className='px-6 py-4text-center'>
+                  {item.attributes.current_team}
+                </td>
+                <td className='px-6 py-4 text-center'>
+                  {item.attributes.primary_position}
+                </td>
+                <td className='px-6 py-4 text-center'>{item.attributes.age}</td>
+                <td className='px-6 py-4 text-center'>
+                  € {item.attributes.market_value}M
+                </td>
+                <td className='px-6 py-4 text-center'>
+                  {item.attributes.matches_played}
+                </td>
+                <td className='px-6 py-4 text-center'>
+                  {item.attributes.minutes_played}
+                </td>
+                <td className='px-6 py-4 text-center'>
+                  {' '}
+                  {item.attributes.birth_country}🇫🇷
+                </td>
+                <td className='px-6 py-4 text-center'>
+                  {item.attributes.primary_position}
+                </td>
+                <td className='px-6 py-4 text-center'>
+                  {item.attributes.height}
+                </td>
+                <td className='px-6 py-4 text-center'>
+                  {item.attributes.weight}
+                </td>
               </tr>
             );
           })}
